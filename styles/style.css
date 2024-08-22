@@ -1,0 +1,205 @@
+html, body{
+    background-color: black;
+    color: #fff;
+}
+@media (max-width: 991px) {
+    .navbar-scroll {
+      background-color: #fff;
+    }
+       
+    .navbar-scroll .navbar-brand,
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars {
+      color: #dddddd !important;
+    }         
+  }
+  
+  .navbar-brand {
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #f8f8f8;
+  }
+  
+  .navbar-scroll {
+    box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #4f4f4f;
+  }
+  
+  .navbar-scrolled {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 450px) {
+    #intro {
+      height: 950px !important;
+    }
+   .navbar-scroll {
+    background-color: black;
+   }
+  }
+  
+  @media (min-width: 550px) and (max-width: 750px) {
+    #intro {
+      height: 1100px !important;
+    }
+    .navbar-scroll {
+        background-color: black;
+       }
+  }
+  
+  @media (min-width: 800px) and (max-width: 990px) {
+    #intro {
+      height: 600px !important;
+    }
+    .navbar-scroll {
+        background-color: black;
+       }
+  }
+  
+  .display-1 {
+    font-weight: 500 !important;
+    letter-spacing: 40px;
+  }
+  
+  @media (min-width: 1600px) {
+    .display-1 {
+      font-size: 10rem;
+    }
+  }
+
+.bg-image {
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 100%;
+}
+
+
+#intro > div > div > div {
+    margin-top: 32%;
+    margin-right: 80%;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #ffffff!important;
+}
+
+#talk > div {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+button {
+  color: #3410b8 !important;
+
+}
+
+button:active {
+    color: black;
+}
+
+.letstalk {
+    background-color: #3410b8;
+    border: 0;
+}
+
+.progress-bar {
+    background-color: #3410b8 !important;
+}
+
+#intro > div > div > div > div {
+    font-family: "Playfair Display", serif;
+    font-weight: 1000;
+    width: 300px;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.name {
+    font-size: 60px;
+}
+
+#nav-about > p:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+.compimg {
+    width: 1px;
+    height: 10px;
+}
+
+.comp {
+    width: 90px;
+}
+
+.mypicture {
+    width: 300px;
+    border-radius: 59%;
+    padding-left: 10px;
+    margin-left: 50px;
+    
+}
+
+footer {
+    padding-top: 30px;
+}
+
+#about-us > div > div > div.col-lg-6.col-md-6.col-sm-12.mb-5{
+    width: 300px;
+}
+
+#about-us > div > div > div.col-lg-6.col-md-6.col-sm-12.ps-5.textfooter > div > h2{
+    width: 500px;
+}
+
+#contact > div > div{
+    margin-top: 30px;
+}
+
+ul {
+    font-family: "Playfair Display", serif;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #3410b8;
+    text-decoration: underline;
+}
+
+#contact > div > div > div.col-lg-6.col-md-6.col-sm-12.ps-5.textfooter > div > h2{
+    padding-bottom: 20px;
+}
+
+.email {
+    font-size: 30px;
+}
+
+#contact > div > div > div.col-lg-6.col-md-6.col-sm-12.mb-5 > div {
+    width: 300px;
+}
+
+#contact > div > div > div.col-lg-6.col-md-6.col-sm-12.mb-5 {
+    width: 450px;
+}
+
